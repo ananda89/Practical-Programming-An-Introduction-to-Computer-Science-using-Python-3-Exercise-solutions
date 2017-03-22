@@ -1,0 +1,87 @@
+Solution 2.10
+n0.1
+a.>>> 9-3
+6
+b.>>> 8*2.5
+20.0
+c.>>> 9/2
+4.5
+d.>>> 9/-2
+-4.5
+
+e.>>> 9//-2
+-5
+f.>>> 9%2
+1
+g.>>> 9.0%2
+1.0
+h.>>> 9%2.0
+1.0
+i.>>> 9%-2
+-1
+j.>>> -9%2
+1
+k.>>> 9/-2.0
+-4.5
+l.>>> 4+3*5
+19
+m.>>> (4+3)*5
+35
+
+no.2
+>>> x=-17
+>>> x
+-17
+>>> +x
+-17
+the value is unchanged as it is only applied in 1 operand ie x.
+
+
+no.3
+
+>>> temp=24
+>>> temp
+24
+>>> temp=(24*1.8)+32
+>>> temp
+75.2 
+
+no.4
+a. 1st 6*3 2nd 7*4 then (18+24)
+b.1st 3/4 then 5+.75
+c.1st 3**4 then 2*81 then (5-162)
+
+n0.5
+a.>>> x=10.5
+>>> y=4
+b.>>> x+y
+14.5
+>>> x=14.5
+>>> y
+4
+c.>>> x
+14.5
+new value of x is 14.5 & y is 4
+
+6.1stly (x-x) is 0 
+then x=0+x
+then x=3 (as it is assigned)
+
+7.>>> x+=x-x
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    x+=x-x
+NameError: name 'x' is not defined
+
+8.
+a.>>> 6* ---------8
+-48
+b.>>> 8= people (number cant be assigned)
+SyntaxError: can't assign to literal
+c.>>> ((((4**3))))
+64
+d.>>> (-(-(-(-5))))
+5
+e.>>> 4+=7/2  (number cant be assigned)
+SyntaxError: can't assign to literal 
+
