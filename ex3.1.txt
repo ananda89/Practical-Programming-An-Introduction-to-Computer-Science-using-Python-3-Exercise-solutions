@@ -1,0 +1,72 @@
+ex-3.11
+1. a. 2
+b.7
+c.4
+
+2. a.max>abs>min
+b.max>min>abs
+c.max>abs>round
+
+3.def f(x):
+""" (int) -> int
+return the number of x which is multipied by x """
+return 3*x
+
+4.def ptofit(production,cost):
+      """ (int,int) -> int
+profit is difference between production and cost"""
+return abs(production-cost)
+ 
+5.def convert_to_km(M):
+""" (int) -> int
+1 mile is equal to 1.6 km.
+"""
+      return M * 1.6
+
+6.def average_grade3(physics,bioligy,chemistry):
+"""(int,int,int) -> int
+Add 3 subject.Then diveded them with 3
+There grades are between 0 and 100. 
+"""
+return physics+biology+chemistry/3   
+
+
+7.def average_top3(physics,bioligy,chemistry,math):
+"""(int,int,int,int) -> int
+Add 4 subject.Then diveded them with 4
+There grades are between 0 and 100.
+ 
+"""
+ total=physics+biology+chemistry+math
+top3=total-min(physics,bioligy,chemistry,math)
+return top3/3
+
+8.
+def weeks_elapsed(day1, day2):
+""" (int, int) -> int
+day1 and day2 are days in the same year. Return the number of full weeks
+that have elapsed between the two days.
+>>> weeks_elapsed(3, 20)
+2
+>>> weeks_elapsed(20, 3)
+2
+>>> weeks_elapsed(8, 5)
+>>> weeks_elapsed(40, 61)
+"""
+return day1-day2// 7
+
+9.parameter-num
+argument-3
+funtion name-square
+funtion call- square(3)
+
+10.
+def square(num):
+""" (number) - number
+return the square pf num .
+>>> square(3)
+9
+"""
+return num**2
+
+   

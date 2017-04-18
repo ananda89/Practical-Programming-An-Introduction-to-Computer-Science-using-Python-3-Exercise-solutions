@@ -1,0 +1,72 @@
+1. a.'Computer Science'
+b."Darwin's"
+c.'H20H20H20'
+d.0
+''
+2.a. 'They'+"’"+'ll hibernate during the winter."'
+'They’ll hibernate during the winter."'
+b.'They'+"’"+'ll hibernate during the winter.'
+'They’ll hibernate during the winter.'
+c. "“Absolutely not,” "+"he said"
+'“Absolutely not,” he said'
+d."“He said,"+ "‘"+"Absolutely not,"+"’”"+" recalled Mel."
+'“He said,‘Absolutely not,’” recalled Mel.'
+e.print('hydrogen sulfide')
+hydrogen sulfide
+f. print ('left\\right')
+left\right
+	
+3. print('A\nB\nC')
+A
+B
+C
+
+4. len("")
+0
+
+5. def f(x,Y):
+	return x,y
+        x=3
+	y=12.5
+	print('The rabbit is'+str(x)+'.')
+	print('The rabbit is'+str(x)+'years old.')
+	print(str(y)+ 'is average.')
+	print(str(y)+'*'+str(x))
+	print(str(y)+'*'+str(x)+'is 37.5')
+        
+6.Doe,John
+
+7.def number(num):
+return float(num)
+print num
+
+8. def repeat(s, n):
+	""" (str, int) -> str
+Return s repeated n times; if n is negative, return the empty string.
+>>> repeat('yes', 4)
+'yesyesyesyes'
+>>> repeat('no', 0)
+>>> repeat('no', -2)
+>>> repeat('yesnomaybe', 3)
+"""
+	repeat=s*n
+	return repeat
+
+
+9. def total_length(s1, s2):
+	""" (str, str) -> int
+Return the sum of the lengths of s1 and s2.
+>>> total_length('yes', 'no')
+5
+>>> total_length('yes', '')
+>>> total_length('YES!!!!', 'Noooooo')
+"""
+	s1=len(s1)
+	s2=len(s2)
+	total_length=s1+s2
+	return total_length
+
+>>> total_length('yes', '')
+3
+>>> total_length('yes', 'no')
+5
